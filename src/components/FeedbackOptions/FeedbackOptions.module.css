@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  padding: 10px 30px;
+  margin: 20px;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid grey;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: blue;
+}
+.button:active {
+  background-color: blue;
+  color: #fff;
+  transform: scale(0.95);
+}
