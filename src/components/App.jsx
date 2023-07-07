@@ -33,6 +33,7 @@ export class App extends Component {
           options={this.state}
           onLeaveFeedback={this.handleLeaveFeedback}
         />
+        <Section title="Statistics" />
         {total === 0 ? (
           <Notification message="There is no feedback" />
         ) : (
